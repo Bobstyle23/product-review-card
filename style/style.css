@@ -62,7 +62,7 @@ body {
 }
 
 .product-image {
-  background-image: url("/images/image-product-desktop.jpg");
+  background-image: url("../images/image-product-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,7 +162,7 @@ body {
   }
 
   .product-image {
-    background-image: url("/images/image-product-mobile.jpg");
+    background-image: url("../images/image-product-mobile.jpg");
     background-size: cover;
     border-radius: 0;
     border-top-left-radius: 1rem;

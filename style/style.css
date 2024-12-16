@@ -19,7 +19,7 @@
   --font-size-info: 1.4rem;
   --font-weight-info: 500;
   --font-family-info: "Montserrat";
-  --line-height-info: 1.75;
+  --line-height-info: 1.6;
 
   --font-size-btn: 1.4rem;
   --font-weight-btn: 700;
@@ -72,7 +72,7 @@ body {
 }
 
 .product-description {
-  padding: 3.2rem;
+  padding: 3.15rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

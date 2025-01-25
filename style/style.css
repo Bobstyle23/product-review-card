@@ -9,7 +9,7 @@
   --font-size-title: 3.2rem;
   --font-weight-title: 700;
   --font-family-title: "Fraunces";
-  --line-height-title: 1;
+  --line-height-title: 3.2rem;
 
   --font-size-type: 1.2rem;
   --font-weight-type: 500;
@@ -19,7 +19,7 @@
   --font-size-description: 1.4rem;
   --font-weight-description: 500;
   --font-family-description: "Montserrat";
-  --line-height-description: 1.64;
+  --line-height-description: 2.3rem;
 
   --font-size-btn: 1.4rem;
   --font-weight-btn: 700;
@@ -28,7 +28,7 @@
   --font-size-actual-price: 1.3rem;
   --font-weight-actual-price: 500;
   --font-family-actual-price: "Montserrat";
-  --line-height-actual-price: 1.75;
+  --line-height-actual-price: 2.3rem;
 }
 
 *,
@@ -71,7 +71,7 @@ body {
 
 .product__type {
   font-size: var(--font-size-type);
-  font-weight: var(--font-weight-info);
+  font-weight: var(--font-weight-type);
   font-family: var(--font-family-type);
   letter-spacing: var(--letter-spacing-type);
   text-transform: uppercase;
@@ -170,7 +170,10 @@ body {
     margin-bottom: 2.4rem;
   }
 
-  .product__description,
+  .product__description {
+    margin-bottom: 2.9rem;
+  }
+
   .product__price {
     margin-bottom: 3rem;
   }
